@@ -3,10 +3,15 @@
     border-radius: 50%;
     color: $color-secondary;
     background-color: $color-primary;
-    position: fixed;
-    right: 24px;
-    bottom: 24px;
     width: 56px;
     height: 56px;
     font-size: 1.6rem;
+    position: fixed;
+    bottom: 24px;
+}
+
+.button-div{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 24px;
 }

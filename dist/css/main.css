@@ -10,12 +10,17 @@
   border-radius: 50%;
   color: #EAEAEA;
   background-color: #5D5FEF;
-  position: fixed;
-  right: 24px;
-  bottom: 24px;
   width: 56px;
   height: 56px;
   font-size: 1.6rem;
+  position: fixed;
+  bottom: 24px;
+}
+
+.button-div {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 24px;
 }
 
 main {
@@ -23,11 +28,11 @@ main {
 }
 
 .icon-back-arrow {
-  position: absolute;
+  position: relative;
   width: 30px;
   height: 30px;
-  top: 24px;
-  left: 24px;
+  top: 40px;
+  left: 8px;
 }
 
 .categories {
@@ -158,6 +163,8 @@ body {
   padding: 16px;
   font-family: "Roboto", sans-serif;
   color: #081131;
+  max-width: 500px;
+  margin: auto;
 }
 
 h1 {
