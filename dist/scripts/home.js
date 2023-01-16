@@ -2,7 +2,8 @@
 const newListInput = document.querySelector('[data-new-list]');
 const lists = document.querySelector('[data-lists]');
 let eventTarget;
-let list = JSON.parse(localStorage.getItem('lists') || '');
+let list = JSON.parse(localStorage.getItem('lists') || '[]') || [];
+console.log(list);
 render();
 newListInput === null || newListInput === void 0 ? void 0 : newListInput.addEventListener('keypress', function (event) {
     eventTarget = event.target;
