@@ -3,8 +3,6 @@ const lists = document.querySelector('[data-lists]') as HTMLInputElement
 let eventTarget
 
 let list = JSON.parse(localStorage.getItem('lists') || '[]') || []
-console.log(list);
-
 
 render()
 
