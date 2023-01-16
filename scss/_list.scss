@@ -1,0 +1,104 @@
+@import 'round-btn';
+
+
+main{
+    padding-bottom: 70px;
+}
+
+.icon-back-arrow{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 24px;
+    left: 24px;
+}
+
+.categories{
+    margin: 1rem 0;
+    
+    &__title{
+        
+        width: fit-content;
+        padding: 0 1rem 0 8px;
+        border-top-right-radius: 50px;
+        color: $color-text;
+        background-color: $color-primary;
+        
+    }
+
+    .items{
+        display: flex;
+        padding: 8px 8px;
+        background-color: $color-secondary;
+        box-shadow: 0px 2px 0px rgba($color-primary, 0.3);
+        color: $color-text;
+        
+
+        .checkmark{
+            width: 1rem;
+            height: 1rem;
+            vertical-align: middle;
+            cursor: pointer;
+            margin-right: 8px;
+        }
+
+        .name__quantity{
+            display: flex;
+        }
+        
+        &__quantity{
+            width: 30%;
+            font-size: 0.8rem;
+            color: rgb(66, 66, 66);
+            margin-top: 4px;
+            text-align: end;
+        }
+
+        &__name{    
+            width: 60%;
+            font-size: 1rem;
+            color: $color-text;
+            font-weight: 500;
+        }
+
+        .checked{
+            text-decoration: line-through;
+        }
+
+        input, input:active, input:focus{
+            border: none    ;
+            outline: none;
+            background-color: transparent;
+            padding: 0;
+        }
+
+
+       
+    }
+}
+
+.care-products{
+    background-color: pink;
+}
+
+.meat-fish{
+    background-color: #f9906f;
+}
+
+.dairy, .snacks{
+    background-color: #ffa600;
+}
+
+.vegetables{
+    background-color: #457d00;
+}
+
+.bread, .dried-goods{
+    background-color: #c68958; 
+}
+
+
+
+
+
+

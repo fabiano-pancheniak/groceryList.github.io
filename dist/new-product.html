@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add product</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <main class="item-main">
+        <fieldset>
+            
+            <label for="item-name">Item Name</label>
+            <input type="text" placeholder="Cheese" id="item-name" data-item-name>
+            
+            <label for="item-quantity">Quantity</label>
+            <input type="text" placeholder="200g" id="item-quantity" data-item-quantity>
+            
+            <label for="item-category">Category</label>
+            <select id="item-category" data-category-select></select>
+            
+            <button  class="button-confirm" data-item-confirm> Add item </button>
+            <span> <a href="list.html"> Back to list </a> </span>
+        </fieldset>
+    </main>
+    <script type="module" src="scripts/new-product.js"></script>
+</body>
+</html>
